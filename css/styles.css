@@ -168,8 +168,21 @@ a {
 .btn:focus {
   background-color: var(--button-accent-bckgrnd);
 }
-/* -------ADVANTAGES LIST------- */
+/* -------ADVANTAGES------- */
+.advantages-list {
+  padding: 94px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.advantages-item {
+  width: 270px;
+  margin-right: 30px;
+}
+.advantages-item:nth-child(4n) {
+  margin-right: 0;
+}
 .advantages-title {
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
